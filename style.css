@@ -1,0 +1,584 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    color: white;
+}
+@media(min-width: 768px) {
+    .panel-and-content-wrapper .panel.header .header.links {
+        display: none;
+    }
+    }
+    @media(max-width: 767px) {
+    .page-header #store, .page-header #store\.links .authorization-link  {
+        display: none;
+    }
+    }
+.header{
+    height: 85px;
+    background-color:rgb(59, 57, 57);
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+a{
+    display: flex;
+}
+.oreo{
+    color: white;
+    font-size: 45px;
+    margin-right:600px;
+    margin-left: 35px;
+    
+}
+a:hover{
+    border:2px solid white;
+
+}
+
+.recipe{
+    font-size:20px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+.cookies{
+    font-size:20px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+.good{
+    font-size:20px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+.events{
+    font-size:20px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+.contact{
+    font-size:20px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+
+.space{
+    background-color: #0058C9;
+    padding: 10px;
+}
+span{
+    font-size: 107px;
+   font-weight: 700;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.twist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #0058C9;
+    height:250px;
+    flex-wrap: wrap;
+    background-image:url("https://www.oreo.com/media/wysiwyg/twist-fill.png");
+    /* margin-top: 0px; */
+}
+
+.dunk{
+    background-image: url("https://www.oreo.com/media/wysiwyg/big-cookie_1__1.png");
+    background-size: cover;
+    height: 370px;
+    width:371.5px;
+}
+
+.tagline{
+    background-color: #0058C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@keyframes rotate {
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
+.rotate1{
+  background-image: url("https://www.oreo.com/media/wysiwyg/cookie-1.png");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    animation: rotate 5s infinite linear;
+    height: 100px;
+    /* margin-right:1200px; */
+}
+.biscuit{
+    background-color: #0058C9;
+    display: flex;
+}
+
+.rotate2{
+    background-image: url("https://www.oreo.com/media/wysiwyg/cookie-1.png");
+      background-size: cover;
+      height:100px;
+      width:100px;
+      animation: rotate 5s infinite linear;
+      height: 100px;
+      margin-left: 1300px;
+
+  }
+
+.biscuit1{
+    background-color: #0058C9;
+    display: flex;
+}
+
+
+.rotate2{
+    background-image: url("https://www.oreo.com/media/wysiwyg/cookie-1.png");
+      background-size: cover;
+      height:100px;
+      width:100px;
+      animation: rotate 5s infinite linear;
+      height: 100px;
+      margin-left: 1300px;
+  }
+
+  .space1{
+    height: 105px;
+  }
+.stuff{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight:900;
+    margin-bottom: 20px;
+}
+
+.loving{
+    height: 300px;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.hat{
+    background-image:url("https://www.oreo.com/media/wysiwyg/Mint_Cap.png");
+    height:300px;
+    width:300px;
+    background-size: cover;
+    margin-left: 200px;
+    margin-right: 100px;
+    transition: transform 2s ease;
+}
+.candle{
+    background-image:url("https://www.oreo.com/media/wysiwyg/Mint_Candle.png");
+    height:300px;
+    width:300px;
+    background-size: cover;
+    margin-right: 100px;
+    transition: transform 2s ease;
+}
+
+.birthday{
+    background-image: url("https://www.oreo.com/media/wysiwyg/bday_candle.png");
+    height:300px;
+    width:300px;
+    background-size: cover;
+    margin-right: 100px;
+    transition: transform 2s ease;
+}
+
+.hat:hover{
+    transform: translatey(-70px);    
+    filter: drop-shadow(0 0 0.75rem rgb(34, 26, 26));
+}
+.candle:hover{
+    transform: translatey(-70px);    
+    filter: drop-shadow(0 0 0.75rem rgb(34, 26, 26));
+}
+.birthday:hover{
+    transform: translatey(-70px); 
+    filter: drop-shadow(0 0 0.75rem rgb(34, 26, 26));
+}
+
+.product{
+   
+    height:70px;
+    display: flex;
+    
+}
+
+.mint{
+    color:rgb(45, 43, 43);
+    font-size: 25px;
+    margin-left: 200px;
+    font-weight: 200;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.mintcandle{
+    color: rgb(45, 43, 43);
+    font-size: 25px;
+    margin-left: 200px;
+    font-weight: 200;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.birthdaycandle{
+    color: rgb(45, 43, 43);
+    font-size: 25px;
+    margin-left: 130px;
+    font-weight: 200;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+
+.recipes{
+    height:400px;
+    scroll-behavior: smooth;
+    display: flex;
+}
+.make{
+    color:black;
+    text-align: center;
+    font-size: 60px;
+    font-weight:900;
+    margin-top: 30px;
+}
+h4{
+    color: rgb(45, 43, 43);
+    font-size: 30px;
+    font-weight: 200;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.surprise{
+    background-image: url("https://www.oreo.com/media/recipe/LPM1268_352602_Oreo_170_1.jpg");
+    background-size: cover;
+    height:300px;
+    width:400px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.milkshake{
+    background-image: url("https://www.oreo.com/media/recipe/341693.jpeg");
+    background-size: cover;
+    height:300px;
+    width:400px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.rasberry{
+    background-image: url("https://www.oreo.com/media/recipe/319440.jpeg");
+    background-size: cover;
+    height:300px;
+    width:400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+ .box2{
+   display: flex;
+}
+
+.space3{
+    height:50px;
+} 
+
+/* Reset some default styles for the button */
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+
+  }
+  
+  /* Style the custom button */
+  .custom-button {
+    background-color:#0058C9;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+.click{
+    height: 50px;
+    width:200px;
+    margin-left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+    color:white;
+    font-weight: 300;
+}
+.head{
+    color:black;
+    font-size: 60px;
+    font-weight: 600;
+    scroll-behavior: smooth;
+}
+.oreocookie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mario{
+    height: 350px;
+    display: flex;
+}
+.cotton{   
+    background-image: url("https://www.oreo.com/media/catalog/product/cache/b0ed7a8f732322b979671de8f002f8c0/0/0/00044000077426_a1c1_1.jpg");
+    height:400px;
+    width: 1000px;
+    margin-right: 100px;
+    background-size: cover;
+}
+.stuff1{   
+    background-image: url("https://www.oreo.com/media/catalog/product/cache/b0ed7a8f732322b979671de8f002f8c0/0/0/00044000067816_u1c1.jpg");
+    height:400px;
+    width: 1000px;
+    margin-right: 100px;
+    background-size: cover;
+}
+.golden{   
+    background-image: url("https://www.oreo.com/media/catalog/product/cache/b0ed7a8f732322b979671de8f002f8c0/g/o/golden_1_1.png");
+    height:400px;
+    width: 1000px;
+    margin-right: 100px;
+    background-size: cover;
+}
+.information{
+    display: flex;
+    height:100px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.cottoncandy{
+    background-image: url("https://www.oreo.com/media/catalog/product/cache/b0ed7a8f732322b979671de8f002f8c0/0/0/00044000073206_u1c1.jpg");
+    height:400px;
+    width: 1000px;
+    margin-right: 100px;
+    margin-left: 30px;
+    background-size: cover;
+}
+.goldencookie2{
+    background-image: url("https://www.oreo.com/media/catalog/product/cache/b0ed7a8f732322b979671de8f002f8c0/0/0/00044000072223_cf_a1n1_gs1_jpeg.jpg");
+    height:400px;
+    width: 1000px;
+    margin-right: 100px;
+    background-size: cover;
+}
+.glutenfree2{
+    background-image: url("https://www.oreo.com/media/catalog/product/cache/b0ed7a8f732322b979671de8f002f8c0/m/t/mt1.jpg");
+    height:400px;
+    width: 1000px;
+    margin-right: 100px;
+    background-size: cover;
+}
+
+.button2{
+    height:50px;
+    width:200px;
+    background-color: #0058C9;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.explore{
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+.button2:hover{
+    background-color: #2980b9;
+}
+.forgood{
+    height: 550px;
+    background-image: url("https://st4.depositphotos.com/1031174/39531/i/450/depositphotos_395317618-stock-photo-closeup-green-blue-textured-background.jpg");
+    background-size: cover;
+    display: flex;
+}
+.world{
+    height:20px;
+    font-size: 25px;
+    align-items: center;
+    color: black;
+    font-weight: 1000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.forgood1{
+    height:500px;
+    width:550px;
+    background-image: url("https://www.oreo.com/media/wysiwyg/Cookie.png");
+}
+.worlds{
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.descrip{
+    height:300px;
+    width:700px;
+    color: white;
+    font-weight: 1000;
+   font-size: 40px;
+   margin-top: 100px;
+   font-weight: 1000;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 120px;
+}
+
+.support{
+    height:50px;
+    width:200px;
+    background-color: #0058C9;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.support1{
+   display: flex;
+   justify-content: center;
+}
+.space4{
+    height: 30px;
+}
+.support:hover{
+    background-color: #2980b9;
+}
+
+.LGBTQ{
+    font-size: 20px;
+    font-weight:300px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.corporate{
+    display: flex;
+
+}
+.event3{
+    height:60px;
+    color: black;
+}
+.event5{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:60px;
+    font-size: 50px;
+    align-items: center;
+    color: black;
+    font-weight: 750;
+    scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.corporate{
+    height:550px;
+    display:flex;
+    justify-content:space-around;
+}
+.corporate1{
+    background-image: url("https://www.oreo.com/media/wysiwyg/Nav-CorporateGifting2.jpg");
+    height:500px;
+    width:500px;
+    background-size: cover;
+}
+.wedding{
+    background-image: url("https://www.oreo.com/media/wysiwyg/Nav-Wedding.jpg");
+    height:500px;
+    width:500px;
+    background-size: cover;
+}
+.gift{
+    display: flex;
+    justify-content:space-around;
+}
+.choco{
+    color:black;
+    font-size: 40px;
+    font-weight:600;
+}
+.weddings{
+    color:black;
+    font-size: 40px;
+    font-weight:600;
+}
+.footer{
+    height:300px;
+    background-color: #0058C9;
+    display: flex;
+}
+.footcookie{
+    height: 224px;
+    width:200px;
+    background-image: url("https://www.oreo.com/media/wysiwyg/footer-cookie.png");
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.social{
+    background-color: #0058C9;
+    display: flex;
+    justify-content: space-evenly;
+}
+.insta{
+    font-size: 25px;
+    
+}
+.youtube{
+    font-size: 25px;
+    margin-left: 200px;
+}
+.twitter{
+    font-size: 25px;
+    margin-left: 200px;
+}
+.facebook{
+    font-size: 25px;
+    margin-left: 200px;
+}
+.space5{
+    height: 40px;
+    background-color: #0058C9; 
+}
